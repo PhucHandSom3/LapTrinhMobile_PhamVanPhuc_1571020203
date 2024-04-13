@@ -1,4 +1,17 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'
+    show
+        AppBar,
+        BuildContext,
+        Column,
+        InheritedWidget,
+        MainAxisAlignment,
+        MaterialApp,
+        Scaffold,
+        SizedBox,
+        StatelessWidget,
+        Text,
+        Widget,
+        runApp;
 
 class MyInherWidget extends InheritedWidget {
   final int data;

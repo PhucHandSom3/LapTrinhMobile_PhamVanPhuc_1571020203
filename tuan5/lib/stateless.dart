@@ -5,7 +5,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  final String inputSentence = "Mẫu thử ở đây nè";
+  final String inputSentence = "Học để thay đổi";
 
   int countWords(String sentence) {
     List<String> words = sentence.split(' ');

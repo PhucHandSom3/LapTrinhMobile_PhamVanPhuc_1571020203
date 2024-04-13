@@ -63,6 +63,7 @@ class _ProductListScreenState extends State<ProductListScreen>{
         appBar: AppBar(
           title: Text("Product List"),
         ),
+        // ignore: unnecessary_null_comparison
         body: products != null ?//neu co du liue thi tra ve list view
         ListView.builder(
             itemCount: products.length,

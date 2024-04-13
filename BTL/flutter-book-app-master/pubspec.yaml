@@ -1,0 +1,29 @@
+name: book_app
+description: A new Flutter project.
+environment:
+  sdk: '^3.2.0'
+
+dependencies:
+
+  flutter_rating_bar: ^4.0.1
+  shared_preferences: ^2.0.8
+  flutter:
+    sdk: flutter
+  cupertino_icons: 1.0.6
+  firebase_core: any
+  firebase_auth: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - res/webmaster.jpeg
+    - res/indesign.jpg
+    - res/sketchup.jpeg
+    - res/photoshop.jpg
+    - res/max_3d.jpeg
+    - res/premier.jpg
+    - res/maya.jpeg
+    - res/corel.jpg
+    - res/drafter.jpg
